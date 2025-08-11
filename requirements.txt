@@ -1,0 +1,6 @@
+pymongo
+python-dotenv
+streamlit
+langgraph==0.6.4
+langchain
+langchain-community

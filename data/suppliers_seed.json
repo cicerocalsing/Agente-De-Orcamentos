@@ -1,0 +1,992 @@
+{
+  "suppliers_faucet": [
+    {
+      "id": "fa-001",
+      "name": "João Encanador 1",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-002",
+      "name": "João Encanador 2",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-003",
+      "name": "João Encanador 3",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-004",
+      "name": "João Encanador 4",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-005",
+      "name": "João Encanador 5",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-006",
+      "name": "João Encanador 6",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-007",
+      "name": "João Encanador 7",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-008",
+      "name": "João Encanador 8",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-009",
+      "name": "João Encanador 9",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-010",
+      "name": "João Encanador 10",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-011",
+      "name": "João Encanador 11",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    },
+    {
+      "id": "fa-012",
+      "name": "João Encanador 12",
+      "category": "manual_process",
+      "service_type": "faucet_repair",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [
+        "faucet_repair"
+      ],
+      "inventory": {}
+    }
+  ],
+  "suppliers_tshirt": [
+    {
+      "id": "ts-001",
+      "name": "Loja Camiseta 1",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-002",
+      "name": "Loja Camiseta 2",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-003",
+      "name": "Loja Camiseta 3",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-004",
+      "name": "Loja Camiseta 4",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-005",
+      "name": "Loja Camiseta 5",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-006",
+      "name": "Loja Camiseta 6",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-007",
+      "name": "Loja Camiseta 7",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-008",
+      "name": "Loja Camiseta 8",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-009",
+      "name": "Loja Camiseta 9",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-010",
+      "name": "Loja Camiseta 10",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-011",
+      "name": "Loja Camiseta 11",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "ts-012",
+      "name": "Loja Camiseta 12",
+      "category": "clothing",
+      "service_type": "tshirt_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    }
+  ],
+  "suppliers_pants": [
+    {
+      "id": "pa-001",
+      "name": "Loja Calça 1",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-002",
+      "name": "Loja Calça 2",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-003",
+      "name": "Loja Calça 3",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-004",
+      "name": "Loja Calça 4",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-005",
+      "name": "Loja Calça 5",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-006",
+      "name": "Loja Calça 6",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-007",
+      "name": "Loja Calça 7",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-008",
+      "name": "Loja Calça 8",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-009",
+      "name": "Loja Calça 9",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-010",
+      "name": "Loja Calça 10",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-011",
+      "name": "Loja Calça 11",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": false,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    },
+    {
+      "id": "pa-012",
+      "name": "Loja Calça 12",
+      "category": "clothing",
+      "service_type": "pants_sale",
+      "location": "Porto Alegre - RS",
+      "working_days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "supports_morning": true,
+      "specialties": [],
+      "inventory": {
+        "colors": [
+          "preta",
+          "branca"
+        ],
+        "sizes": [
+          "P",
+          "M",
+          "G",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    }
+  ]
+}
