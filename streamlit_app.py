@@ -12,21 +12,21 @@ st.title("🧠 Intelligent Quotation System")
 if "graph" not in st.session_state:
     st.session_state.graph = build_workflow()
 if "phase" not in st.session_state:
-    st.session_state.phase = "form"
+    st.session_state.phase = "form" # onde está o fluxo ("form", "supplier_chat", "budget")
 if "queue" not in st.session_state:
-    st.session_state.queue = []
+    st.session_state.queue = [] # fila de fornecedores a serem contatados
 if "offers" not in st.session_state:
-    st.session_state.offers = []
+    st.session_state.offers = [] # lista de ofertas aceitas
 if "task" not in st.session_state:
-    st.session_state.task = {}
+    st.session_state.task = {} # dicionário da tarefa normalizada
 if "current_supplier" not in st.session_state:
-    st.session_state.current_supplier = None
+    st.session_state.current_supplier = None # fornecedor atual que estamos conversando
 if "generated_question" not in st.session_state:
-    st.session_state.generated_question = ""
+    st.session_state.generated_question = "" # Pergunta exibida para o fornecedor
 if "answer_key" not in st.session_state:
-    st.session_state.answer_key = 0
+    st.session_state.answer_key = 0 # contador que limpa o input entre fornecedores
 if "run_id" not in st.session_state:
-    st.session_state.run_id = None
+    st.session_state.run_id = None #ID de cada execução (para rastrear/persistir no Mongo)
 
 qnode = SupplierQuestionNode()
 anode = SupplierAnswerParserNode()
@@ -50,7 +50,7 @@ def start_flow(task_text: str):
     st.session_state.phase = "supplier_chat"
 
 with st.form("form"):
-    task_text = st.text_area("Describe your task:", key="task_input", placeholder="Escreva em PT mesmo :)")
+    task_text = st.text_area("Describe your task:", key="task_input", placeholder="Escreva sua tarefa:")
     submitted = st.form_submit_button("Generate quotation")
 if submitted and task_text.strip():
     start_flow(task_text.strip())

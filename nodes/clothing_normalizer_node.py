@@ -78,16 +78,6 @@ class ClothingNormalizerNode:
         self.llm = LLMClient()
 
     def run(self, task_text: str, current_date: str | None = None) -> dict:
-        """
-        Saída esperada:
-        {
-          "service_type": "tshirt_sale" | "pants_sale",
-          "description": <str>,
-          "color": <str|null>,
-          "size": <str|null>,             # exemplos: "GG", "G", "M", "42"
-          "desired_date": <YYYY-MM-DD|null>
-        }
-        """
         sys = (
             "You are a strict information extractor. Output ONLY valid JSON with keys:\n"
             "  service_type ('tshirt_sale' or 'pants_sale'),\n"
@@ -132,13 +122,13 @@ class ClothingNormalizerNode:
             if stype in {"tshirt_sale", "pants_sale"}:
                 data["service_type"] = stype
             else:
-                data["service_type"] = service_rx  # fallback seguro
+                data["service_type"] = service_rx  
 
             data["description"] = llm_data.get("description") or task_text
 
             c = llm_data.get("color")
             c = _normalize_color(c) if isinstance(c, str) else None
-            data["color"] = c or color_rx  # preferir LLM se válido; senão regex
+            data["color"] = c or color_rx  
 
             s = llm_data.get("size")
             s = _normalize_size(s) if isinstance(s, str) or (isinstance(s, int) and str(s).isdigit()) else None

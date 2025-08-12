@@ -31,7 +31,7 @@ class ManualNormalizerNode:
         return None
 
     def _infer_date(self, text: str, current_date: str | None) -> str | None:
-        """Inferimos APENAS se houver termos explícitos."""
+        """Faço inferência APENAS se houver termos explícitos."""
         if not current_date:
             return None
         base = date.fromisoformat(current_date)

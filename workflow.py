@@ -20,8 +20,10 @@ def build_workflow():
     def ffn(state): out=faucet.run(state['normalized_task']); return {'task':out['task'],'suppliers':out['suppliers']}
     def tfn(state): out=tshirt.run(state['normalized_task']); return {'task':out['task'],'suppliers':out['suppliers']}
     def pfn(state): out=pants.run(state['normalized_task']); return {'task':out['task'],'suppliers':out['suppliers']}
+    
     g.add_node('classifier', klass); g.add_node('manual_normalizer', mfn); g.add_node('clothing_normalizer', cfn)
     g.add_node('faucet_service', ffn); g.add_node('tshirt_service', tfn); g.add_node('pants_service', pfn)
+    
     g.add_edge(START,'classifier')
     g.add_conditional_edges('classifier', lambda s: s.get('category','manual_process'),
         {'manual_process':'manual_normalizer','clothing':'clothing_normalizer'})
